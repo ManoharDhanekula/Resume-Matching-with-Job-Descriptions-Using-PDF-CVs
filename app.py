@@ -44,8 +44,8 @@ def index():
 
             # Load job descriptions dataset (you can adapt this to your dataset)
             dataset = load_dataset("jacob-hugging-face/job-descriptions")
-            job_descriptions = dataset["train"]["model_response"][:15]
-            company_names = dataset["train"]["company_name"][:15]
+            job_descriptions = dataset["train"]["model_response"][:50]
+            company_names = dataset["train"]["company_name"][:50]
 
             # Initialize a dictionary to store match percentages for each company
             company_match_percentages = {company_name: [] for company_name in company_names}
