@@ -30,3 +30,4 @@ For each job description, calculate the cosine similarity between its embedding 
 the embeddings of the CVs.
 Rank CVs based on this similarity for each job description.
 List the top 5 CVs for each job description based on the highest similarity scores.
+
